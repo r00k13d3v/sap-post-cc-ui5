@@ -1,2 +1,2 @@
 # sap-post-cc-ui5
-Example for make a call from SAP Business Technology Platform.
+Example for making calls from SAP Business Technology Platform to a local machine with UI5.
