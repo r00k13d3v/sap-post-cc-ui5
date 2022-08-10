@@ -1,0 +1,8 @@
+---
+applications:
+  - name: ui5-app
+    memory: 256M
+    path: ./approuter
+    services:
+      - dest-service
+      - conn-service

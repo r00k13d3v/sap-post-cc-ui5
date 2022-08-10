@@ -8,6 +8,16 @@ sap.ui.define(
 
         return Controller.extend("com.myorg.myUI5App.controller.MainView", {
             onInit: function () {},
+
+            actionButton: function () {
+                $.ajax({
+                    url: "/test",
+                    method: "GET",
+                    timeout: 0,
+                }).done(function (response) {
+                    console.log(response);
+                });
+            },
         });
     }
 );

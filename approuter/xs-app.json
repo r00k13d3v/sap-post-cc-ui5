@@ -10,6 +10,11 @@
       "target": "$1",
       "authenticationType": "none",
       "localDir": "uimodule/webapp"
+    },
+    { 
+      "source": "/test",
+      "authenticationType": "none",
+      "destination": "localDest"
     }
   ]
 }
